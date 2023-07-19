@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+}
+.Portfolio{
+    position: relative;
+}
+
+.background img{
+    width: 1000pt;
+    height: 3000pt;
+    position: absolute;
+}
+
+.background .about{
+    width: 300px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 350px;
+    position: absolute;
+    overflow: hidden;
+    
+}
+
+
+.info{
+    position: absolute;
+    background-color: rgb(240, 213, 217);
+    width: 300px;
+    height: 450px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 650px;
+    overflow: hidden;
+    transform: translateX(70px);
+    transition: transform 5ms;
+}
+
+.Portfolio:hover .info {
+    opacity: 1%;
+    transform: translateX(0px);
+}
+
+
+.Name{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(231, 66, 121);
+    margin-left: 10px;
+}
+.Profession{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(231, 66, 121);
+    margin-left: 10px;
+}
+.others{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(231, 66, 121);
+    margin-left: 10px;
+}
+
+.social .LinkedIn{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 10px;
+    color: black;
+    margin-top: 100Px;
+}
+
+.ion-logo-linkedin{
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 110px;
+}
+
+.social .Gmail{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 10px;
+    color: black;
+    margin-top: 190px;
+}
+
+.ion-md-mail{
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 200px;
+
+}
+
+.social .Github{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 10px;
+    color: black;
+    margin-top: 280px;
+}
+.ion-logo-github{
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 290px;
+
+}
+
+.skill{
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+
+}
+
+.html{
+    position: absolute;
+    width: 200px;
+    margin-top: 740px;
+    margin-left: 30px;
+    border-radius: 90px;
+}
+
+.JS{
+    position: absolute;
+    width: 250px;
+    margin-top: 740px;
+    margin-left: 280px;
+    border-radius: 90px;
+
+}
+
+.CSS{
+    position: absolute;
+    width: 200px;
+    margin-top: 740px;
+    margin-left: 560px;
+    border-radius: 25px;
+}
+
+.hacking{
+    position: absolute;
+    width: 200px;
+    margin-top: 740px;
+    margin-left: 800px;
+    border-radius: 100px;
+}
+
+.git{
+    position: absolute;
+    width: 200px;
+    margin-top: 740px;
+    margin-left: 1040px;
+    border-radius: 90px;
+}
+
+.skills .head{
+    margin-top: 600px;
+    position: absolute;
+    text-align: center;
+    margin-left: 600px;
+    color: brown;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
